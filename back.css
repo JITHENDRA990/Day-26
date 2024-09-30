@@ -1,0 +1,54 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-color: white;
+}
+
+svg path:nth-child(2){
+    stroke-dasharray: 165px;
+    animation: mani 5s linear forwards;
+}
+svg path:nth-child(3){
+    stroke-dasharray: 165px;
+    animation: mani 5s linear forwards;
+}
+svg path:nth-child(4){
+    stroke-dasharray: 165px;
+    animation: mani 5s linear forwards;
+}
+svg path:nth-child(5){
+    stroke-dasharray: 220px;
+    animation: mani 5s linear forwards;
+}
+svg path:nth-child(6){
+    stroke-dasharray: 165px;
+    animation: mani 5s linear forwards;
+}
+svg path:nth-child(7){
+    stroke-dasharray: 220px;
+    animation: mani 5s linear forwards;
+}
+svg path:nth-child(8){
+    stroke-dasharray: 165px;
+    animation: mani 5s linear forwards;
+}
+svg path:nth-child(9){
+    stroke-dasharray: 165px;
+    animation: mani 5s linear forwards;
+}
+svg path:nth-child(10){
+    stroke-dasharray: 165px;
+    animation: mani 5s linear forwards;
+}
+@keyframes mani{
+    0%{
+        stroke-dashoffset:0 ;
+    }
+    100%{
+        stroke-dashoffset: 100%;
+        stroke-dasharray: 0;
+    }
+}
